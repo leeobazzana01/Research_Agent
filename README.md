@@ -17,13 +17,19 @@ O objetivo é oferecer uma base simples e extensível para criação de agentes 
 5. Facilidade para adicionar novas ferramentas e fluxos personalizados.
 
 ## Estrutura do Projeto
-.
-├── main.py              # Arquivo principal; inicializa o agente e processa entradas
-├── tools.py             # Implementação das ferramentas (search, salvar arquivo etc)
-├── requirements.txt     # Dependências do projeto
-├── README.md            # Este documento
-├── venv/                # Ambiente virtual (não incluso no repositório)
-└── __pycache__/         # Arquivos de cache do Python
+
+
+  ├── main.py              # Arquivo principal; inicializa o agente e processa entradas
+  
+  ├── tools.py             # Implementação das ferramentas (search, salvar arquivo etc)
+  
+  ├── requirements.txt     # Dependências do projeto
+  
+  ├── README.md            # Este documento
+  
+  ├── venv/                # Ambiente virtual (não incluso no repositório)
+  
+  └── __pycache__/         # Arquivos de cache do Python
 
 ## Tecnologias Utilizadas
 
@@ -49,7 +55,7 @@ Uma chave de API válida da OpenAI
 
 ## Configuração do Ambiente
 1. Clonando o Repositório
-git clone https://github.com/<seu-usuario>/<seu-repositorio>.git
+git clone https://github.com/leeobazzana01/Research_Agent/tree/main
 cd <seu-repositorio>
 
 2. Criando o Ambiente Virtual
