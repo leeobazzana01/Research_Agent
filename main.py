@@ -48,7 +48,7 @@ prompt = ChatPromptTemplate.from_messages( #o prompt é o objeto do ChatPromptTe
 
 #criando o agente com formato da classe
 agent = create_tool_calling_agent(
-    LLm=llm,
+    llm=llm,
     prompt=prompt,
     tools=[]
 )
@@ -59,3 +59,4 @@ agent = create_tool_calling_agent(
 agent_executor = AgentExecutor(agent=agent, tools=[], verbose=True)
 #gerando uma resposta da ia com o invoke
 raw_response = agent_executor.invoke({"query": "What is the capital of France?"}) 
+
